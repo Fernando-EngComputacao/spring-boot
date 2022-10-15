@@ -15,6 +15,18 @@ public class Movie {
 	private int duracao;
 	private int posicao;
 	
+	public Movie(String nome, String genero, int duracao, int posicao) {
+		this.nome = nome;
+		this.genero = genero;
+		this.duracao = duracao;
+		this.posicao = posicao;
+	}
+	public Movie(String nome, String genero, int posicao) {
+		this.nome = nome;
+		this.genero = genero;
+		this.posicao = posicao;
+	}
+	public Movie() {}
 	
 	public Long getId() {
 		return id;  

@@ -1,16 +1,13 @@
 
-# Spring Boot Project
+# Spring Boot Project - Fernando Furtado :boy:
 Este é um projeto Java Spring Boot Java.   
-
-## Badges  
-
-Add badges from somewhere like: [shields.io](https://shields.io/)  
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)  
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://choosealicense.com/licenses/gpl-3.0/)  
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](https://choosealicense.com/licenses/gpl-3.0/)
 
 # Site de acesso 
-1. [Spring Start](https://start.spring.io/)  
+1. [Spring Start](https://start.spring.io/) 
+2. [Insomnia](https://insomnia.rest/download) 
   
 
 ## Configurações do projeto no Spring Start  
@@ -25,6 +22,7 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
     - Spring Data JPA
     - Spring Boot DevTools
     - Spring Data JDBC
+    - Validation
 
  ## Properties (application.properties)
 **Propriedades:** entre em -> src/main/resources/application.properties
@@ -60,38 +58,6 @@ INSERT INTO MOVIE(nome, genero, duracao, posicao) VALUES('Avatar 2','Aventura',2
 INSERT INTO MOVIE(nome, genero, duracao, posicao) VALUES('Procurando Nemo','Fantasia',185,3);
 INSERT INTO MOVIE(nome, genero, duracao, posicao) VALUES('Minha mãe é uma peça','Drama',225,4);
 INSERT INTO MOVIE(nome, genero, duracao, posicao) VALUES('Adão Negro','Fantasia',205,5);
+INSERT INTO MOVIE(nome, genero, duracao, posicao) VALUES('Iti','Terror',195,6);
 ~~~
-
-Install dependencies  
-
-~~~bash  
-npm install
-~~~
-
-Start the server  
-
-~~~bash  
-npm run start
-~~~
-
-## Environment Variables  
-
-To run this project, you will need to add the following environment variables to your .env file  
-`API_KEY`  
-
-`ANOTHER_API_KEY` 
-
-## Acknowledgements  
-
-- [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-## Feedback  
-
-If you have any feedback, please reach out to us at fake@fake.com
-
-## License  
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
