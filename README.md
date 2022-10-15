@@ -5,7 +5,7 @@ Este é um projeto Java Spring Boot Java.
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://choosealicense.com/licenses/gpl-3.0/)  
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](https://choosealicense.com/licenses/gpl-3.0/)
 
-# Site de acesso 
+# Sites de acesso 
 1. [Spring Start](https://start.spring.io/) 
 2. [Insomnia](https://insomnia.rest/download) 
   
